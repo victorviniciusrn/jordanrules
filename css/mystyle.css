@@ -1,0 +1,305 @@
+
+head{
+    padding: 5px;
+}
+header{
+
+    text-align: center;
+    border-radius: 12px;
+    padding: 10px;
+}
+body{
+    background-color: rgb(12, 11, 11);
+    margin: unset;
+
+    font: 300 16px/22px "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.primary-header a,
+.primary-footer a{
+    color: #fff;
+}
+/*
+============
+Grid
+============
+*/
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container,.grid{
+    margin: 0 auto;
+    width: 960px;
+}
+
+.container{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/*
+============
+typography
+============
+*/
+h1, h3, h4 {
+    margin-bottom: 22px;
+}
+
+.logo{
+    border-top: 2px solid;
+    padding: 40px 0 22px 0;
+    float:none;
+    font-weight: 300;
+    letter-spacing: .5px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.primary-nav{
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+p a{
+    border-bottom: 1px solid #dfe2e5 ;
+}
+
+#sec1 #quote{
+    font-style: italic;
+}
+/*
+============
+buttons
+============
+*/
+
+.btn{
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin: 0;
+    text-transform: uppercase;
+
+}
+
+.btn-alt{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+}
+
+/*
+============
+hero
+============
+*/
+
+.hero{
+    line-height: 44px;
+    padding: 22px 80px 66px 80px;
+    text-align: center;
+}
+
+.hero h2{
+    font-size: 32px;
+}
+.hero p{
+    font-size: 22px;
+    font-weight: 100;
+}
+
+/* 
+============
+logo
+============
+*/
+
+/*
+==========
+primary_footer
+==========
+*/
+.primary-footer{
+    font-size: 14px;
+    padding-bottom: 44px;
+    padding-top: 44px;
+    color: #fff;
+}
+.primary-footer small{
+    float: left;
+    font-weight: 400;
+    color: #fff;
+}
+
+/*
+============
+columns
+============
+*/
+
+.col-1-3{
+    width: 30.00%;
+}
+
+.col-2-3{
+    width: 66.66%;
+}
+
+.col-1-3,
+.col-2-3{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/*
+===========
+Costum Styles
+===========
+*/
+
+
+h1, h2, h3{
+    color: #850505;
+}
+h1{
+    
+    font-variant: small-caps;
+    font-size: 55px;
+    text-align: center;
+    line-height: 44px;
+}
+
+h2{
+    font-size: 24px;
+    line-height: 44px;
+}
+
+h3{
+    font-size: 21px;
+}
+
+h4{
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+p{
+    color: rgb(219, 174, 174);
+}
+
+nav{
+    text-align: right;
+}
+
+
+
+
+
+a{
+    font-weight: bold;
+    color: rgb(204, 147, 147);
+    padding: 4px;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #850505;
+}
+
+a:focus{
+    background-color: rgb(89, 81, 158);
+}
+
+
+
+.email{
+    text-align: left;
+}
+
+#final p{
+    float: left;
+}
+
+/*
+===========
+rows
+===========
+*/
+
+.row{
+    background: radial-gradient(#fff, rgb(243, 222, 222));
+    min-width: 960px;
+    padding: 66px 0 44px 0;
+}
+
+/*
+===========
+div
+===========
+*/
+
+.div{
+    background: radial-gradient(#fff, rgb(184, 39, 39));
+}
+
+.primary-nav li {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: top;
+}
+
+.primary-nav li:last-child{
+    margin-right: 0;
+}
+
+/*==========
+
+author
+===========
+*/
+
+.author-info{
+    border: 1px solid #850505;
+    border-radius: 5px;
+    margin-top: 88px;
+    padding-bottom: 22px;
+    text-align: center
+}
+.author-info a:hover {
+    color: #850505 ;
+    background-color: rgb(12, 11, 11);
+}
+.author-info ul{
+    list-style-type: none;
+    float: left;
+}
+.author-info img{
+    border-radius: 50%;
+    height: 130px;
+    margin: -66px 0 22px 0;
+    vertical-align: top;
+}
+
+/*==========
+Imgs treatment
+==============
+*/
+
+.teaser img{
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 22px;
+    max-width: 100%
+}
