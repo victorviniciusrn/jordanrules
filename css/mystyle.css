@@ -96,6 +96,17 @@ buttons
     padding: 10px 30px;
 }
 
+.btn-default{
+    border: 0;
+    background: rgb(12, 11, 11);
+    padding: 11px 30px;
+    font-size: 14px;
+}
+
+.btn-default:hover{
+    background: #850505;
+}
+
 /*
 ============
 hero
@@ -302,4 +313,46 @@ Imgs treatment
     display: block;
     margin-bottom: 22px;
     max-width: 100%
+}
+
+
+/* =================== ORDER PAGE ============================ */
+
+form{
+    margin-bottom: 22px;
+}
+
+input,
+select{
+    font: 300 16px/22px "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.register-group{
+    border: 0;
+}
+
+.register-group label{
+    color: #850505;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.register-group input,
+.register-group select {
+    border: 1px solid  #850505;
+    border-radius: 5px;
+    color: rgb(204, 147, 147);
+    display: block;
+    margin: 5px 0 27px 0;
+    padding: 5px 14px;
+}
+
+.register-group input{
+    width: 100%;
+    
+}
+
+.register-group select{
+    height: 34px;
+    width: 60px;
 }
